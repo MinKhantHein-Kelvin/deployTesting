@@ -1,18 +1,20 @@
 {
-  "name": "deploytest",
+  "name": "vercel-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "node express testing",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+  "engines": {
+    "node": "14.x"
   },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": "14.17.6"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
